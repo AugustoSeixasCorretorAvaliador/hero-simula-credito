@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "HERO Crédito MVP",
+  "version": "1.0",
+  "description": "Simulação inteligente de crédito imobiliário dentro do WhatsApp Web",
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
